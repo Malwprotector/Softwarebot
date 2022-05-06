@@ -67,7 +67,7 @@ async def auto_andwser(ctx, arg):
     await ctx.send(arg)
 
 @bot.command(name="warn", description="warn")
-async def warn(ctx, int):
+async def warn(ctx):
     await ctx.send("**`⚠️Attention, vous venez de reçevoir un avertissement.⚠️`**", delete_after=10)
 
 #new_member
