@@ -17,7 +17,7 @@ async def on_ready():
 @bot.command(name="info", description="displays the bots's information") #indicates the name of the command and its description (the description displayed by the help command is the one commented out between async def and await
 async def info(ctx):
     '''displays the bots's information'''
-    await ctx.send('**`SoftwareBot version 1.1 made by xxxxxxxxxx, coded in python3,  discord server xxxxxxxxxx | View code on github:`** https://github.com/Malwprotector/Softwarebot') #text that is sent by the bot
+    await ctx.send('**`SoftwareBot version 1.3 made by xxxxxxxxxx, coded in python3,  discord server xxxxxxxxxx | View code on github:`** https://github.com/Malwprotector/Softwarebot') #text that is sent by the bot
 
 @bot.command(name="hello", description="answers hello")
 async def hello(ctx):
